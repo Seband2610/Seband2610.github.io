@@ -1,0 +1,41 @@
+body{
+    background-color: #e3f2fd;
+     margin: 200px;
+}
+
+h1{
+    color:#0d47a1;
+    text-align: center;
+}
+
+h2{
+    color: #1565c0;
+}
+p{
+    color:#333333;
+}
+div{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+a {
+  color: #0d47a1;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+nav ul li {
+  display: inline;
+}
