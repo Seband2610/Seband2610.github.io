@@ -1,11 +1,12 @@
 # Pet Adoption Center
 
-## What is it?
-A website to manage pet adoptions in the Caribbean region.
+## ¿Qué es?
+Un sitio web para gestionar la adopción de mascotas en la región del Caribe.
 
-## What is it for?
-To display available dogs, show their traits, and help potential adopters get in touch.
+## ¿Para qué sirve?
+Para mostrar perritos disponibles, sus características y facilitar el contacto con posibles adoptantes.
 
-## Technologies
+## Tecnologías
 - HTML5
 - CSS3
+
