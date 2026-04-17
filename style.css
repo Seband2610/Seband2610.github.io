@@ -58,3 +58,22 @@ button{
   margin-top: 10px;
   text-decoration: none;
 }
+header{
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px; 
+}
+nav a {
+  color: #0d47a1;
+  text-decoration: none;
+  margin-left: 20px;
+}
+nav a:hover {
+  text-decoration: underline; */
+}
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
