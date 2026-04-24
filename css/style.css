@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -13,9 +14,11 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+
+  overflow-x: hidden;
 }
 
-/* HEADER */
+/* 🔥 HEADER */
 header {
   position: fixed;
   top: 0;
@@ -36,7 +39,7 @@ header h1 {
   letter-spacing: 2px;
 }
 
-/* NAV DESKTOP */
+/* 🔥 NAV DESKTOP */
 nav {
   display: flex;
   gap: 10px;
@@ -55,13 +58,13 @@ nav a:hover {
   color: white;
 }
 
-/* MAIN */
+/* 🔥 MAIN */
 main {
   flex: 1;
   margin-top: 80px;
 }
 
-/* HERO */
+/* 🔥 HERO */
 .hero {
   min-height: 90vh;
   display: flex;
@@ -94,7 +97,7 @@ main {
   justify-content: center;
 }
 
-/* CARD */
+/* 🔥 CARD */
 .card {
   background-color: #111827;
   padding: 25px;
@@ -107,7 +110,7 @@ main {
   background-color: #1f2937;
 }
 
-/* BOTONES */
+/* 🔥 BOTONES */
 .btn {
   display: inline-block;
   margin-top: 10px;
@@ -124,7 +127,7 @@ main {
   color: white;
 }
 
-/* FOOTER */
+/* 🔥 FOOTER */
 footer {
   text-align: center;
   padding: 20px;
@@ -132,8 +135,7 @@ footer {
   color: #9ca3af;
 }
 
-/* MENU HAMBURGUESA */
-
+/* 🔥 MENU HAMBURGUESA */
 #menu-toggle {
   display: none;
 }
@@ -145,9 +147,7 @@ footer {
   color: white;
 }
 
-   /* RESPONSIVE */
-
-
+/* 🔥 RESPONSIVE */
 @media (max-width: 768px) {
 
   .menu-icon {
@@ -186,6 +186,7 @@ footer {
     padding: 12px;
   }
 
+  /* 🔥 HERO */
   .hero {
     flex-direction: column;
     text-align: center;
@@ -194,5 +195,28 @@ footer {
 
   .hero-img {
     height: 250px;
+  }
+
+  /* 🔥 SOBRE MÍ */
+  .hero-text {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+  }
+
+  /* 🔥 INTERESES / CARDS */
+  .card {
+    width: 90%;
+    max-width: 450px;
+    margin: 10px auto;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  .hero, .about, .interests {
+    justify-content: center;
+    gap: 15px;
   }
 }

@@ -8,15 +8,21 @@
 </head>
 <body>
 
-<header>
-  <h1>SEBASTIAN</h1>
+<header class="header">
 
-  <nav>
-    <a href="index.html">Inicio</a>
-    <a href="sobre.html">Sobre mí</a>
-    <a href="gustos.html">Intereses</a>
-    <a href="contacto.html">Contacto</a>
+  <h1>SEBASTIAN</h1>
+  
+  <input type="checkbox" id="menu-toggle">
+
+  <label for="menu-toggle" class="menu-icon">☰</label>
+
+  <nav class="nav">
+    <a href="index.html" onclick="document.getElementById('menu-toggle').checked=false;">Inicio</a>
+    <a href="sobre.html" onclick="document.getElementById('menu-toggle').checked=false;">Sobre mí</a>
+    <a href="gustos.html" onclick="document.getElementById('menu-toggle').checked=false;">Intereses</a>
+    <a href="contacto.html" onclick="document.getElementById('menu-toggle').checked=false;">Contacto</a>
   </nav>
+
 </header>
 
 <main>
